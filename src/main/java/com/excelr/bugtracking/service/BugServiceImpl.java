@@ -186,4 +186,25 @@ public class BugServiceImpl implements IBugService {
 		return "Successfully Deleted Application";
 	}
 
+	@Override
+	public List<BugDTO> getByStatus(String status) throws BugException {
+		// TODO Auto-generated method stub
+		if (status == null || status.trim() == null) {
+			LOGGER.error("Invalid Status");
+		}
+		try {
+			List<Bug> bugs = bugRepository.findByStatus(status);
+
+			List<BugDTO> bugDTOs = bugs.parallelStream().map(bug -> {
+				BugDTO bugDTO = convertToDTO.mapToBugDTO(bug);
+				return bugDTO;
+			}).collect(Collectors.toList());
+
+			return bugDTOs;
+
+		} catch (Exception e) {
+			throw new BugException("Exception while fetching " + e.getMessage());
+		}
+	}
+
 }

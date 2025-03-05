@@ -22,6 +22,7 @@ import com.excelr.bugtracking.dto.ApplicationRequest;
 import com.excelr.bugtracking.exception.ApplicationException;
 import com.excelr.bugtracking.service.IApplicationService;
 
+import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
@@ -141,7 +142,7 @@ public class ApplicationController {
 	}
 
 	@PostMapping()
-	public ResponseEntity<ApplicationDTO> saveApplication(@RequestBody ApplicationRequest applicationRequest)
+	public ResponseEntity<ApplicationDTO> saveApplication(@Valid @RequestBody ApplicationRequest applicationRequest)
 			throws ApplicationException {
 		log.info("Inside application controller and calling get applicationByName method ");
 
@@ -171,7 +172,7 @@ public class ApplicationController {
 	}
 
 	@PutMapping()
-	public ResponseEntity<ApplicationDTO> update(@RequestBody ApplicationRequest applicationRequest)
+	public ResponseEntity<ApplicationDTO> update(@Valid @RequestBody ApplicationRequest applicationRequest)
 			throws ApplicationException {
 		log.info("Inside application controller and calling update method ");
 

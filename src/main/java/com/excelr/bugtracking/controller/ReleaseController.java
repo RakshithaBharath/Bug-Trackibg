@@ -20,6 +20,7 @@ import com.excelr.bugtracking.dto.ReleaseRequest;
 import com.excelr.bugtracking.exception.ReleaseException;
 import com.excelr.bugtracking.service.IReleaseService;
 
+import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
@@ -51,7 +52,7 @@ public class ReleaseController {
 	}
 
 	@PostMapping
-	public ResponseEntity<ReleaseDTO> save(@RequestBody ReleaseRequest releaseRequest) throws ReleaseException {
+	public ResponseEntity<ReleaseDTO> save(@Valid @RequestBody ReleaseRequest releaseRequest) throws ReleaseException {
 
 		log.info("Inside Controller - save method");
 		ReleaseDTO releaseDTO = null;
@@ -69,7 +70,7 @@ public class ReleaseController {
 	}
 
 	@PutMapping()
-	public ResponseEntity<ReleaseDTO> update(@RequestBody ReleaseRequest releaseRequest) throws ReleaseException {
+	public ResponseEntity<ReleaseDTO> update(@Valid @RequestBody ReleaseRequest releaseRequest) throws ReleaseException {
 
 		log.info("Inside Controller - update method");
 		ReleaseDTO releaseDTO = null;

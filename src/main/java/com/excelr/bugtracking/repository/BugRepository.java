@@ -16,4 +16,6 @@ public interface BugRepository extends JpaRepository<Bug, Integer> {
 	@Query("Select b from Bug b where b.release.id = :id")
 	List<Bug> getByReleaseId(@Param("id") int releaseId);
 
+	List<Bug> findByStatus(String status);
+
 }

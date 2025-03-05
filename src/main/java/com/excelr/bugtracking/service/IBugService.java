@@ -19,4 +19,6 @@ public interface IBugService {
 	List<BugDTO> getByReleaseID(int releaseId) throws BugException;
 
 	String deleteById(int id) throws BugException;
+	
+	List<BugDTO> getByStatus(String status) throws BugException;
 }

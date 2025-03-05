@@ -149,6 +149,26 @@ public class BugController {
 
 	}
 
+	@GetMapping("/GetByStatus")
+	public ResponseEntity<List<BugDTO>> findByStatus(@RequestParam("status") String status) throws BugException {
+		log.info("Inside Controller Class - findByStatus method");
+		List<BugDTO> bugDTOs = null;
+		try {
+			bugDTOs = iBugService.getByStatus(status);
+			if (bugDTOs == null) {
+				log.info("Could not fetch data by provided status");
+				return new ResponseEntity<List<BugDTO>>(HttpStatus.BAD_REQUEST);
+			}
+
+		} catch (Exception e) {
+			log.error("Error while fetching Data: {}", e.getMessage(), e); // Logs full stack trace
+			return new ResponseEntity<List<BugDTO>>(HttpStatus.INTERNAL_SERVER_ERROR);
+		}
+
+		return new ResponseEntity<List<BugDTO>>(bugDTOs, HttpStatus.ACCEPTED);
+
+	}
+
 	@DeleteMapping("/{id}")
 	public ResponseEntity<String> deleteById(@PathVariable("id") int id) throws BugException {
 		try {

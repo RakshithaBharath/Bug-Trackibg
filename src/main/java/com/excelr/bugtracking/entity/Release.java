@@ -12,6 +12,8 @@ import jakarta.persistence.SequenceGenerator;
 import jakarta.persistence.Table;
 import jakarta.persistence.Temporal;
 import jakarta.persistence.TemporalType;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 import lombok.Data;
 
 @Data
@@ -27,6 +29,8 @@ public class Release implements Serializable {
 	@Column(name = "RELEASE_ID")
 	private int id;
 
+	@NotBlank(message = "Application name cannot be blank")
+	@Size(min = 3, max = 255, message = "Release name must not exceed 255 characters")
 	private String name;
 
 	@Temporal(TemporalType.DATE)
@@ -36,6 +40,5 @@ public class Release implements Serializable {
 	private String description;
 	private String status;
 	private String comments;
-
 
 }
