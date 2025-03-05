@@ -168,4 +168,22 @@ public class BugServiceImpl implements IBugService {
 		return bugDTOs;
 	}
 
+	@Override
+	public String deleteById(int id) throws BugException {
+		// TODO Auto-generated method stub
+
+		if (id <= 0) {
+			LOGGER.info("Enter valid Id", id);
+			throw new BugException("Invalid ID");
+		}
+		try {
+			bugRepository.deleteById(id);
+			LOGGER.info("Deleted Bug successfully");
+
+		} catch (Exception e) {
+			throw new BugException("Could not remove Bug:" + e.getMessage());
+		}
+		return "Successfully Deleted Application";
+	}
+
 }

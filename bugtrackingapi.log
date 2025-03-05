@@ -362,3 +362,388 @@
 2025-03-04 21:13:53 - Completed initialization in 0 ms
 2025-03-04 21:13:53 - Inside Test - delete application
 2025-03-04 21:13:53 - Delete Application inside controller method
+2025-03-05 15:02:56 - Starting BugTrackingApplicationTests using Java 23.0.1 with PID 18560 (started by Bharath in D:\ExcelR\Codebase\BackEnd\Workspace\Bug-Trackibg)
+2025-03-05 15:02:57 - No active profile set, falling back to 1 default profile: "default"
+2025-03-05 15:02:58 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-05 15:02:58 - Finished Spring Data repository scanning in 42 ms. Found 3 JPA repository interfaces.
+2025-03-05 15:02:58 - HikariPool-1 - Starting...
+2025-03-05 15:02:59 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:20730691-3cbc-40ef-b94a-9f5830e315ba user=SA
+2025-03-05 15:02:59 - HikariPool-1 - Start completed.
+2025-03-05 15:02:59 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-05 15:02:59 - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-03-05 15:02:59 - HHH000026: Second-level cache disabled
+2025-03-05 15:02:59 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-05 15:02:59 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-05 15:03:00 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-05 15:03:00 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-05 15:03:00 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-03-05 15:03:01 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-05 15:03:01 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-03-05 15:03:02 - Exposing 8 endpoints beneath base path '/actuator'
+2025-03-05 15:03:02 - Started BugTrackingApplicationTests in 5.57 seconds (process running for 6.777)
+2025-03-05 15:03:02 - Could not detect default configuration classes for test class [com.excelr.bugtracking.repository.ApplicationRepositoryTest]: ApplicationRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-03-05 15:03:02 - Found @SpringBootConfiguration com.excelr.bugtracking.BugTrackingApplication for test class com.excelr.bugtracking.repository.ApplicationRepositoryTest
+2025-03-05 15:03:02 - Restart disabled due to context in which it is running
+2025-03-05 15:03:02 - Starting ApplicationRepositoryTest using Java 23.0.1 with PID 18560 (started by Bharath in D:\ExcelR\Codebase\BackEnd\Workspace\Bug-Trackibg)
+2025-03-05 15:03:02 - No active profile set, falling back to 1 default profile: "default"
+2025-03-05 15:03:02 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-05 15:03:02 - Finished Spring Data repository scanning in 10 ms. Found 3 JPA repository interfaces.
+2025-03-05 15:03:02 - Replacing 'dataSource' DataSource bean with embedded version
+2025-03-05 15:03:02 - Starting embedded database: url='jdbc:h2:mem:40a0186c-6a7b-439a-b6eb-256cb0202b8d;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2025-03-05 15:03:02 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-05 15:03:02 - HHH000026: Second-level cache disabled
+2025-03-05 15:03:02 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-05 15:03:02 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@37220ee3']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-05 15:03:03 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-05 15:03:03 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-05 15:03:03 - Started ApplicationRepositoryTest in 0.322 seconds (process running for 7.591)
+2025-03-05 15:03:03 - Could not detect default configuration classes for test class [com.excelr.bugtracking.repository.BugRepositoryTest]: BugRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-03-05 15:03:03 - Found @SpringBootConfiguration com.excelr.bugtracking.BugTrackingApplication for test class com.excelr.bugtracking.repository.BugRepositoryTest
+2025-03-05 15:03:03 - Could not detect default configuration classes for test class [com.excelr.bugtracking.repository.ReleaseRepositoryTest]: ReleaseRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-03-05 15:03:03 - Found @SpringBootConfiguration com.excelr.bugtracking.BugTrackingApplication for test class com.excelr.bugtracking.repository.ReleaseRepositoryTest
+2025-03-05 15:03:03 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-05 15:03:03 - HikariPool-1 - Shutdown initiated...
+2025-03-05 15:03:03 - HikariPool-1 - Shutdown completed.
+2025-03-05 15:03:03 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-05 15:03:25 - Starting BugTrackingApplication using Java 23.0.1 with PID 10264 (D:\ExcelR\Codebase\BackEnd\Workspace\Bug-Trackibg\target\classes started by Bharath in D:\ExcelR\Codebase\BackEnd\Workspace\Bug-Trackibg)
+2025-03-05 15:03:25 - The following 1 profile is active: "sit"
+2025-03-05 15:03:25 - The Class-Path manifest attribute in C:\Users\Bharath\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.5.0.24.07\ojdbc11-23.5.0.24.07.jar referenced one or more files that do not exist: file:/C:/Users/Bharath/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.5.0.24.07/oraclepki.jar
+2025-03-05 15:03:25 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-05 15:03:25 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-05 15:03:26 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-05 15:03:26 - Finished Spring Data repository scanning in 51 ms. Found 3 JPA repository interfaces.
+2025-03-05 15:03:27 - Tomcat initialized with port 8090 (http)
+2025-03-05 15:03:27 - Starting service [Tomcat]
+2025-03-05 15:03:27 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-05 15:03:27 - Initializing Spring embedded WebApplicationContext
+2025-03-05 15:03:27 - Root WebApplicationContext: initialization completed in 1800 ms
+2025-03-05 15:03:27 - HikariPool-1 - Starting...
+2025-03-05 15:03:29 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-05 15:03:29 - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-03-05 15:03:29 - HHH000026: Second-level cache disabled
+2025-03-05 15:03:29 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-05 15:03:29 - HikariPool-1 - Starting...
+2025-03-05 15:03:30 - SQL Error: 12541, SQLState: 66000
+2025-03-05 15:03:30 - ORA-12541: Cannot connect. No listener at host localhost port 1521. (CONNECTION_ID=4UnQqR+FQ9KpeTtUm6a6RA==)
+https://docs.oracle.com/error-help/db/ora-12541/
+2025-03-05 15:03:30 - HHH000342: Could not obtain connection to query metadata
+org.hibernate.exception.GenericJDBCException: unable to obtain isolated JDBC connection [ORA-12541: Cannot connect. No listener at host localhost port 1521. (CONNECTION_ID=4UnQqR+FQ9KpeTtUm6a6RA==)
+https://docs.oracle.com/error-help/db/ora-12541/] [n/a]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:63)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:320)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:129)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:81)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:226)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:194)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1859)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.excelr.bugtracking.BugTrackingApplication.main(BugTrackingApplication.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.sql.SQLException: ORA-12541: Cannot connect. No listener at host localhost port 1521. (CONNECTION_ID=4UnQqR+FQ9KpeTtUm6a6RA==)
+https://docs.oracle.com/error-help/db/ora-12541/
+	at oracle.jdbc.driver.T4CConnection.handleLogonNetException(T4CConnection.java:1617)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:1139)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1206)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:105)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:886)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:693)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:126)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:467)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61)
+	... 38 common frames omitted
+Caused by: oracle.net.ns.NetException: ORA-12541: Cannot connect. No listener at host localhost port 1521. (CONNECTION_ID=4UnQqR+FQ9KpeTtUm6a6RA==)
+https://docs.oracle.com/error-help/db/ora-12541/
+	at oracle.net.nt.TcpNTAdapter.handleEstablishSocketException(TcpNTAdapter.java:414)
+	at oracle.net.nt.TcpNTAdapter.establishSocket(TcpNTAdapter.java:346)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:224)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:332)
+	at oracle.net.nt.ConnStrategy.executeConnOption(ConnStrategy.java:1222)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:761)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:711)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:959)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:328)
+	at oracle.jdbc.driver.T4CConnection.connectNetworkSessionProtocol(T4CConnection.java:3419)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:1018)
+	... 52 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishTimedConnect(SocketChannelImpl.java:1285)
+	at java.base/sun.nio.ch.SocketChannelImpl.blockingConnect(SocketChannelImpl.java:1327)
+	at java.base/sun.nio.ch.SocketAdaptor.connect(SocketAdaptor.java:102)
+	at oracle.net.nt.TimeoutSocketChannel.doConnect(TimeoutSocketChannel.java:288)
+	at oracle.net.nt.TimeoutSocketChannel.initializeSocketChannel(TimeoutSocketChannel.java:268)
+	at oracle.net.nt.TimeoutSocketChannel.connect(TimeoutSocketChannel.java:235)
+	at oracle.net.nt.TimeoutSocketChannel.<init>(TimeoutSocketChannel.java:202)
+	at oracle.net.nt.TcpNTAdapter.establishSocket(TcpNTAdapter.java:335)
+	... 61 common frames omitted
+2025-03-05 15:03:30 - Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2025-03-05 15:03:30 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2025-03-05 15:03:30 - Stopping service [Tomcat]
+2025-03-05 15:03:30 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-03-05 15:03:30 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1812)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.excelr.bugtracking.BugTrackingApplication.main(BugTrackingApplication.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:276)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:226)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:194)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1859)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	... 18 common frames omitted
+Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:191)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:87)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentWithDefaults(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:392)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:129)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:81)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	... 33 common frames omitted
+2025-03-05 15:04:16 - Starting BugTrackingApplication using Java 23.0.1 with PID 6332 (D:\ExcelR\Codebase\BackEnd\Workspace\Bug-Trackibg\target\classes started by Bharath in D:\ExcelR\Codebase\BackEnd\Workspace\Bug-Trackibg)
+2025-03-05 15:04:16 - The following 1 profile is active: "sit"
+2025-03-05 15:04:16 - The Class-Path manifest attribute in C:\Users\Bharath\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.5.0.24.07\ojdbc11-23.5.0.24.07.jar referenced one or more files that do not exist: file:/C:/Users/Bharath/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.5.0.24.07/oraclepki.jar
+2025-03-05 15:04:16 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-05 15:04:16 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-05 15:04:17 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-05 15:04:17 - Finished Spring Data repository scanning in 46 ms. Found 3 JPA repository interfaces.
+2025-03-05 15:04:18 - Tomcat initialized with port 8090 (http)
+2025-03-05 15:04:18 - Starting service [Tomcat]
+2025-03-05 15:04:18 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-05 15:04:18 - Initializing Spring embedded WebApplicationContext
+2025-03-05 15:04:18 - Root WebApplicationContext: initialization completed in 1753 ms
+2025-03-05 15:04:18 - HikariPool-1 - Starting...
+2025-03-05 15:04:18 - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@3a2e8114
+2025-03-05 15:04:18 - HikariPool-1 - Start completed.
+2025-03-05 15:04:18 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-05 15:04:18 - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-03-05 15:04:18 - HHH000026: Second-level cache disabled
+2025-03-05 15:04:19 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-05 15:04:19 - HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2025-03-05 15:04:19 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-05 15:04:19 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-05 15:04:19 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-05 15:04:20 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-03-05 15:04:20 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-05 15:04:20 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-03-05 15:04:21 - H2 console available at '/h2-console'. Database available at 'jdbc:oracle:thin:@localhost:1521:xe'
+2025-03-05 15:04:21 - LiveReload server is running on port 35729
+2025-03-05 15:04:21 - Exposing 8 endpoints beneath base path '/actuator'
+2025-03-05 15:04:21 - Tomcat started on port 8090 (http) with context path '/'
+2025-03-05 15:04:21 - Started BugTrackingApplication in 5.821 seconds (process running for 6.2)
+2025-03-05 15:04:26 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-05 15:04:26 - Initializing Servlet 'dispatcherServlet'
+2025-03-05 15:04:26 - Completed initialization in 1 ms
+2025-03-05 15:04:27 - Init duration for springdoc-openapi is: 465 ms
+2025-03-05 15:06:00 - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-03-05 15:06:00 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-05 15:06:00 - Graceful shutdown complete
+2025-03-05 15:06:00 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-05 15:06:00 - HikariPool-1 - Shutdown initiated...
+2025-03-05 15:06:00 - HikariPool-1 - Shutdown completed.
+2025-03-05 15:06:00 - Starting BugTrackingApplication using Java 23.0.1 with PID 6332 (D:\ExcelR\Codebase\BackEnd\Workspace\Bug-Trackibg\target\classes started by Bharath in D:\ExcelR\Codebase\BackEnd\Workspace\Bug-Trackibg)
+2025-03-05 15:06:00 - The following 1 profile is active: "sit"
+2025-03-05 15:06:01 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-05 15:06:01 - Finished Spring Data repository scanning in 10 ms. Found 3 JPA repository interfaces.
+2025-03-05 15:06:01 - Tomcat initialized with port 8090 (http)
+2025-03-05 15:06:01 - Starting service [Tomcat]
+2025-03-05 15:06:01 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-05 15:06:01 - Initializing Spring embedded WebApplicationContext
+2025-03-05 15:06:01 - Root WebApplicationContext: initialization completed in 389 ms
+2025-03-05 15:06:01 - HikariPool-2 - Starting...
+2025-03-05 15:06:01 - HikariPool-2 - Added connection oracle.jdbc.driver.T4CConnection@21e789c
+2025-03-05 15:06:01 - HikariPool-2 - Start completed.
+2025-03-05 15:06:01 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-05 15:06:01 - HHH000026: Second-level cache disabled
+2025-03-05 15:06:01 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-05 15:06:01 - HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2025-03-05 15:06:01 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 11.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-05 15:06:01 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-05 15:06:01 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-05 15:06:01 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-05 15:06:01 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-03-05 15:06:02 - H2 console available at '/h2-console'. Database available at 'jdbc:oracle:thin:@localhost:1521:xe'
+2025-03-05 15:06:02 - LiveReload server is running on port 35729
+2025-03-05 15:06:02 - Exposing 8 endpoints beneath base path '/actuator'
+2025-03-05 15:06:02 - Tomcat started on port 8090 (http) with context path '/'
+2025-03-05 15:06:02 - Started BugTrackingApplication in 1.099 seconds (process running for 106.514)
+2025-03-05 15:06:02 - Condition evaluation unchanged
+2025-03-05 15:08:43 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-03-05 15:08:43 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-05 15:08:43 - Graceful shutdown complete
+2025-03-05 15:08:43 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-05 15:08:43 - HikariPool-2 - Shutdown initiated...
+2025-03-05 15:08:43 - HikariPool-2 - Shutdown completed.
+2025-03-05 15:08:43 - Starting BugTrackingApplication using Java 23.0.1 with PID 6332 (D:\ExcelR\Codebase\BackEnd\Workspace\Bug-Trackibg\target\classes started by Bharath in D:\ExcelR\Codebase\BackEnd\Workspace\Bug-Trackibg)
+2025-03-05 15:08:43 - The following 1 profile is active: "sit"
+2025-03-05 15:08:44 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-05 15:08:44 - Finished Spring Data repository scanning in 14 ms. Found 3 JPA repository interfaces.
+2025-03-05 15:08:44 - Tomcat initialized with port 8090 (http)
+2025-03-05 15:08:44 - Starting service [Tomcat]
+2025-03-05 15:08:44 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-05 15:08:44 - Initializing Spring embedded WebApplicationContext
+2025-03-05 15:08:44 - Root WebApplicationContext: initialization completed in 405 ms
+2025-03-05 15:08:44 - HikariPool-3 - Starting...
+2025-03-05 15:08:44 - HikariPool-3 - Added connection oracle.jdbc.driver.T4CConnection@24678822
+2025-03-05 15:08:44 - HikariPool-3 - Start completed.
+2025-03-05 15:08:44 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-05 15:08:44 - HHH000026: Second-level cache disabled
+2025-03-05 15:08:44 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-05 15:08:44 - HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2025-03-05 15:08:44 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 11.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-05 15:08:44 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-05 15:08:44 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-05 15:08:44 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-05 15:08:44 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-03-05 15:08:44 - H2 console available at '/h2-console'. Database available at 'jdbc:oracle:thin:@localhost:1521:xe'
+2025-03-05 15:08:44 - LiveReload server is running on port 35729
+2025-03-05 15:08:44 - Exposing 8 endpoints beneath base path '/actuator'
+2025-03-05 15:08:44 - Tomcat started on port 8090 (http) with context path '/'
+2025-03-05 15:08:44 - Started BugTrackingApplication in 0.994 seconds (process running for 269.42)
+2025-03-05 15:08:44 - Condition evaluation unchanged
+2025-03-05 15:11:29 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-03-05 15:11:29 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-05 15:11:29 - Graceful shutdown complete
+2025-03-05 15:11:29 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-05 15:11:29 - HikariPool-3 - Shutdown initiated...
+2025-03-05 15:11:29 - HikariPool-3 - Shutdown completed.
+2025-03-05 15:11:29 - Starting BugTrackingApplication using Java 23.0.1 with PID 6332 (D:\ExcelR\Codebase\BackEnd\Workspace\Bug-Trackibg\target\classes started by Bharath in D:\ExcelR\Codebase\BackEnd\Workspace\Bug-Trackibg)
+2025-03-05 15:11:29 - The following 1 profile is active: "sit"
+2025-03-05 15:11:29 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-05 15:11:29 - Finished Spring Data repository scanning in 9 ms. Found 3 JPA repository interfaces.
+2025-03-05 15:11:29 - Tomcat initialized with port 8090 (http)
+2025-03-05 15:11:29 - Starting service [Tomcat]
+2025-03-05 15:11:29 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-05 15:11:29 - Initializing Spring embedded WebApplicationContext
+2025-03-05 15:11:29 - Root WebApplicationContext: initialization completed in 268 ms
+2025-03-05 15:11:30 - HikariPool-4 - Starting...
+2025-03-05 15:11:30 - HikariPool-4 - Added connection oracle.jdbc.driver.T4CConnection@1d9f7719
+2025-03-05 15:11:30 - HikariPool-4 - Start completed.
+2025-03-05 15:11:30 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-05 15:11:30 - HHH000026: Second-level cache disabled
+2025-03-05 15:11:30 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-05 15:11:30 - HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2025-03-05 15:11:30 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 11.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-05 15:11:30 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-05 15:11:30 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-05 15:11:30 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-05 15:11:30 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-03-05 15:11:30 - H2 console available at '/h2-console'. Database available at 'jdbc:oracle:thin:@localhost:1521:xe'
+2025-03-05 15:11:30 - LiveReload server is running on port 35729
+2025-03-05 15:11:30 - Exposing 8 endpoints beneath base path '/actuator'
+2025-03-05 15:11:30 - Tomcat started on port 8090 (http) with context path '/'
+2025-03-05 15:11:30 - Started BugTrackingApplication in 0.754 seconds (process running for 434.887)
+2025-03-05 15:11:30 - Condition evaluation unchanged
