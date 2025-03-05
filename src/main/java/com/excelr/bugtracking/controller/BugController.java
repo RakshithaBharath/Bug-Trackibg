@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -25,7 +26,6 @@ import lombok.extern.slf4j.Slf4j;
 @RestController
 @RequestMapping("v1/api/bugs")
 public class BugController {
-
 
 	@Autowired
 	private IBugService iBugService;
@@ -108,7 +108,7 @@ public class BugController {
 		return new ResponseEntity<BugDTO>(bugDTOs, HttpStatus.ACCEPTED);
 
 	}
-	
+
 	@GetMapping("/GetByApplicationId")
 	public ResponseEntity<List<BugDTO>> findByApplicationId(@RequestParam("id") int id) throws BugException {
 		log.info("Inside Controller Class - findByApplicationId method");
@@ -121,14 +121,14 @@ public class BugController {
 			}
 
 		} catch (Exception e) {
-	        log.error("Error while fetching Data: {}", e.getMessage(), e); // Logs full stack trace
+			log.error("Error while fetching Data: {}", e.getMessage(), e); // Logs full stack trace
 			return new ResponseEntity<List<BugDTO>>(HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 
 		return new ResponseEntity<List<BugDTO>>(bugDTOs, HttpStatus.ACCEPTED);
 
 	}
-	
+
 	@GetMapping("/GetByReleaseId")
 	public ResponseEntity<List<BugDTO>> findByReleaseId(@RequestParam("id") int id) throws BugException {
 		log.info("Inside Controller Class - findByReleaseId method");
@@ -141,12 +141,26 @@ public class BugController {
 			}
 
 		} catch (Exception e) {
-	        log.error("Error while fetching Data: {}", e.getMessage(), e); // Logs full stack trace
+			log.error("Error while fetching Data: {}", e.getMessage(), e); // Logs full stack trace
 			return new ResponseEntity<List<BugDTO>>(HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 
 		return new ResponseEntity<List<BugDTO>>(bugDTOs, HttpStatus.ACCEPTED);
 
+	}
+
+	@DeleteMapping("/{id}")
+	public ResponseEntity<String> deleteById(@PathVariable("id") int id) throws BugException {
+		try {
+			String response = iBugService.deleteById(id);
+			return new ResponseEntity<String>(response, HttpStatus.OK);
+
+		} catch (Exception e) {
+
+			log.error("Error while Deleting Data: {}", e.getMessage(), e);
+			return new ResponseEntity<String>(HttpStatus.INTERNAL_SERVER_ERROR);
+
+		}
 	}
 
 }
