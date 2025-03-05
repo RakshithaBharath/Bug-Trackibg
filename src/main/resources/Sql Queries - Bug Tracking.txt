@@ -1,0 +1,40 @@
+Bug Tracking
+============
+CREATE TABLE APPLICATION_TBL(
+application_id int NOT NULL PRIMARY KEY,
+name VARCHAR(40),
+created_on DATE,
+description VARCHAR(80),
+owner VARCHAR(100));
+
+CREATE TABLE RELEASE_TBL(
+release_id int NOT NULL PRIMARY KEY,
+name VARCHAR(40),
+description VARCHAR(80),
+release_date DATE,
+status VARCHAR(60),
+comments VARCHAR(100));
+
+drop TABLE  RELEASE_TBL;
+
+CREATE TABLE BUG_TBL(
+bug_id int NOT NULL PRIMARY KEY,
+APPLICATION_IMPACTED VARCHAR(40),
+Created_on DATE,
+Created_by VARCHAR(40),
+BUG_TYPE VARCHAR(20),
+ASSIGNED_TO  VARCHAR(30),
+status VARCHAR(30),
+description VARCHAR(60),
+application_id int,
+release_id int,
+CONSTRAINT fk_application_id FOREIGN KEY (application_id) REFERENCES APPLICATION_TBL(application_id),
+CONSTRAINT fk_release_id FOREIGN KEY (release_id) REFERENCES RELEASE_TBL(release_id));
+
+CREATE SEQUENCE APPLICATION_TBL_SEQ START WITH 1 INCREMENT BY 1;
+
+CREATE SEQUENCE BUG_TBL_SEQ START WITH 1 INCREMENT BY 1;
+
+CREATE SEQUENCE RELEASE_TBL_SEQ START WITH 1 INCREMENT BY 1;
+
+Note - Check Sequence names are matching or not in db and pojo

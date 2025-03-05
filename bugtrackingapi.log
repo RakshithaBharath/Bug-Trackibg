@@ -1,0 +1,364 @@
+2025-03-04 18:41:35 - Starting BugTrackingApplicationTests using Java 23.0.1 with PID 24552 (started by Bharath in D:\ExcelR\Codebase\BackEnd\Workspace\Workspace_2\Bug-Tracking\Bug-Tracking)
+2025-03-04 18:41:35 - No active profile set, falling back to 1 default profile: "default"
+2025-03-04 18:41:37 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-04 18:41:37 - Finished Spring Data repository scanning in 67 ms. Found 3 JPA repository interfaces.
+2025-03-04 18:41:38 - HikariPool-1 - Starting...
+2025-03-04 18:41:38 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:545c5ff6-75ae-410a-9a3a-98e96f010010 user=SA
+2025-03-04 18:41:38 - HikariPool-1 - Start completed.
+2025-03-04 18:41:38 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-04 18:41:38 - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-03-04 18:41:39 - HHH000026: Second-level cache disabled
+2025-03-04 18:41:39 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-04 18:41:39 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-04 18:41:40 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-04 18:41:40 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-04 18:41:41 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-03-04 18:41:42 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-04 18:41:42 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-03-04 18:41:43 - Exposing 8 endpoints beneath base path '/actuator'
+2025-03-04 18:41:43 - Started BugTrackingApplicationTests in 8.163 seconds (process running for 9.984)
+2025-03-04 18:41:44 - Could not detect default configuration classes for test class [com.excelr.bugtracking.repository.BugRepositoryTest]: BugRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-03-04 18:41:44 - Found @SpringBootConfiguration com.excelr.bugtracking.BugTrackingApplication for test class com.excelr.bugtracking.repository.BugRepositoryTest
+2025-03-04 18:41:44 - Restart disabled due to context in which it is running
+2025-03-04 18:41:44 - Starting BugRepositoryTest using Java 23.0.1 with PID 24552 (started by Bharath in D:\ExcelR\Codebase\BackEnd\Workspace\Workspace_2\Bug-Tracking\Bug-Tracking)
+2025-03-04 18:41:44 - No active profile set, falling back to 1 default profile: "default"
+2025-03-04 18:41:44 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-04 18:41:44 - Finished Spring Data repository scanning in 13 ms. Found 3 JPA repository interfaces.
+2025-03-04 18:41:44 - Replacing 'dataSource' DataSource bean with embedded version
+2025-03-04 18:41:44 - Starting embedded database: url='jdbc:h2:mem:5d0ad440-f033-4abb-bff4-08dca41c4d2f;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2025-03-04 18:41:44 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-04 18:41:44 - HHH000026: Second-level cache disabled
+2025-03-04 18:41:44 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-04 18:41:44 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@493cf6b2']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-04 18:41:44 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-04 18:41:44 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-04 18:41:44 - Started BugRepositoryTest in 0.351 seconds (process running for 10.918)
+2025-03-04 18:41:44 - Could not detect default configuration classes for test class [com.excelr.bugtracking.repository.ReleaseRepositoryTest]: ReleaseRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-03-04 18:41:44 - Found @SpringBootConfiguration com.excelr.bugtracking.BugTrackingApplication for test class com.excelr.bugtracking.repository.ReleaseRepositoryTest
+2025-03-04 18:41:44 - Could not detect default configuration classes for test class [com.excelr.bugtracking.repository.ApplicationRepositoryTest]: ApplicationRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-03-04 18:41:44 - Found @SpringBootConfiguration com.excelr.bugtracking.BugTrackingApplication for test class com.excelr.bugtracking.repository.ApplicationRepositoryTest
+2025-03-04 18:41:45 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-04 18:41:45 - HikariPool-1 - Shutdown initiated...
+2025-03-04 18:41:45 - HikariPool-1 - Shutdown completed.
+2025-03-04 18:41:45 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-04 20:47:10 - Starting ApplicationControllerTest using Java 23.0.1 with PID 6720 (started by Bharath in D:\ExcelR\Codebase\BackEnd\Workspace\Workspace_2\Bug-Tracking\Bug-Tracking)
+2025-03-04 20:47:10 - No active profile set, falling back to 1 default profile: "default"
+2025-03-04 20:47:11 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-03-04 20:47:11 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:47:11 - Initializing Servlet ''
+2025-03-04 20:47:11 - Completed initialization in 2 ms
+2025-03-04 20:47:11 - Started ApplicationControllerTest in 2.072 seconds (process running for 2.954)
+2025-03-04 20:47:11 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:47:11 - Initializing Servlet ''
+2025-03-04 20:47:11 - Completed initialization in 0 ms
+2025-03-04 20:47:11 - Inside application controller and calling update method 
+2025-03-04 20:47:11 - Updated data from service layer: com.excelr.bugtracking.dto.ApplicationDTO@52cb52bd
+2025-03-04 20:47:11 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:47:11 - Initializing Servlet ''
+2025-03-04 20:47:11 - Completed initialization in 1 ms
+2025-03-04 20:47:11 - Inside Test - get all application
+2025-03-04 20:47:11 - Inside application controller and calling get application method 
+2025-03-04 20:47:11 - Fetching Data from service layer: [com.excelr.bugtracking.dto.ApplicationDTO@7019d619]
+2025-03-04 20:49:16 - Starting ApplicationControllerTest using Java 23.0.1 with PID 24356 (started by Bharath in D:\ExcelR\Codebase\BackEnd\Workspace\Workspace_2\Bug-Tracking\Bug-Tracking)
+2025-03-04 20:49:16 - No active profile set, falling back to 1 default profile: "default"
+2025-03-04 20:49:18 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-03-04 20:49:19 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:49:19 - Initializing Servlet ''
+2025-03-04 20:49:19 - Completed initialization in 1 ms
+2025-03-04 20:49:19 - Started ApplicationControllerTest in 3.369 seconds (process running for 4.933)
+2025-03-04 20:49:19 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:49:19 - Initializing Servlet ''
+2025-03-04 20:49:19 - Completed initialization in 0 ms
+2025-03-04 20:49:19 - Inside application controller and calling update method 
+2025-03-04 20:49:19 - Updated data from service layer: com.excelr.bugtracking.dto.ApplicationDTO@5e4874ae
+2025-03-04 20:49:19 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:49:19 - Initializing Servlet ''
+2025-03-04 20:49:19 - Completed initialization in 1 ms
+2025-03-04 20:49:19 - Inside Test - get all application
+2025-03-04 20:49:19 - Inside application controller and calling get application method 
+2025-03-04 20:49:19 - Fetching Data from service layer: [com.excelr.bugtracking.dto.ApplicationDTO@654be52b]
+2025-03-04 20:49:57 - Starting ApplicationControllerTest using Java 23.0.1 with PID 8944 (started by Bharath in D:\ExcelR\Codebase\BackEnd\Workspace\Workspace_2\Bug-Tracking\Bug-Tracking)
+2025-03-04 20:49:57 - No active profile set, falling back to 1 default profile: "default"
+2025-03-04 20:49:58 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-03-04 20:49:59 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:49:59 - Initializing Servlet ''
+2025-03-04 20:49:59 - Completed initialization in 2 ms
+2025-03-04 20:49:59 - Started ApplicationControllerTest in 2.363 seconds (process running for 3.399)
+2025-03-04 20:49:59 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:49:59 - Initializing Servlet ''
+2025-03-04 20:49:59 - Completed initialization in 0 ms
+2025-03-04 20:49:59 - Inside application controller and calling update method 
+2025-03-04 20:49:59 - Updated data from service layer: com.excelr.bugtracking.dto.ApplicationDTO@52cb52bd
+2025-03-04 20:49:59 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:49:59 - Initializing Servlet ''
+2025-03-04 20:49:59 - Completed initialization in 1 ms
+2025-03-04 20:49:59 - Inside Test - get all application
+2025-03-04 20:49:59 - Inside application controller and calling get application method 
+2025-03-04 20:49:59 - Fetching Data from service layer: [com.excelr.bugtracking.dto.ApplicationDTO@7019d619]
+2025-03-04 20:54:06 - Starting ApplicationControllerTest using Java 23.0.1 with PID 17376 (started by Bharath in D:\ExcelR\Codebase\BackEnd\Workspace\Workspace_2\Bug-Tracking\Bug-Tracking)
+2025-03-04 20:54:06 - No active profile set, falling back to 1 default profile: "default"
+2025-03-04 20:54:07 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-03-04 20:54:07 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:54:07 - Initializing Servlet ''
+2025-03-04 20:54:07 - Completed initialization in 2 ms
+2025-03-04 20:54:07 - Started ApplicationControllerTest in 2.076 seconds (process running for 2.964)
+2025-03-04 20:54:07 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:54:07 - Initializing Servlet ''
+2025-03-04 20:54:07 - Completed initialization in 0 ms
+2025-03-04 20:54:07 - Inside Test - get all application
+2025-03-04 20:54:07 - Inside application controller and calling get application method 
+2025-03-04 20:54:07 - Fetching Data from service layer: [com.excelr.bugtracking.dto.ApplicationDTO@1cc41b77]
+2025-03-04 20:54:08 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:54:08 - Initializing Servlet ''
+2025-03-04 20:54:08 - Completed initialization in 0 ms
+2025-03-04 20:54:08 - Inside application controller and calling update method 
+2025-03-04 20:54:08 - Updated data from service layer: com.excelr.bugtracking.dto.ApplicationDTO@40bf0e15
+2025-03-04 20:54:08 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:54:08 - Initializing Servlet ''
+2025-03-04 20:54:08 - Completed initialization in 0 ms
+2025-03-04 20:54:08 - Inside Test - delete application
+2025-03-04 20:54:08 - Delete Application inside controller method
+2025-03-04 20:57:11 - Starting ApplicationControllerTest using Java 23.0.1 with PID 24072 (started by Bharath in D:\ExcelR\Codebase\BackEnd\Workspace\Workspace_2\Bug-Tracking\Bug-Tracking)
+2025-03-04 20:57:11 - No active profile set, falling back to 1 default profile: "default"
+2025-03-04 20:57:12 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-03-04 20:57:12 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:57:12 - Initializing Servlet ''
+2025-03-04 20:57:12 - Completed initialization in 2 ms
+2025-03-04 20:57:12 - Started ApplicationControllerTest in 2.102 seconds (process running for 2.985)
+2025-03-04 20:57:12 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:57:12 - Initializing Servlet ''
+2025-03-04 20:57:12 - Completed initialization in 1 ms
+2025-03-04 20:57:13 - Inside Test - get all application
+2025-03-04 20:57:13 - Inside application controller and calling get application method 
+2025-03-04 20:57:13 - Fetching Data from service layer: [com.excelr.bugtracking.dto.ApplicationDTO@e154848]
+2025-03-04 20:57:13 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:57:13 - Initializing Servlet ''
+2025-03-04 20:57:13 - Completed initialization in 1 ms
+2025-03-04 20:57:13 - Inside application controller and calling update method 
+2025-03-04 20:57:13 - Updated data from service layer: com.excelr.bugtracking.dto.ApplicationDTO@45297e7
+2025-03-04 20:57:13 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:57:13 - Initializing Servlet ''
+2025-03-04 20:57:13 - Completed initialization in 1 ms
+2025-03-04 20:57:13 - Inside Test - delete application
+2025-03-04 20:57:13 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "findByName"]
+2025-03-04 20:57:13 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:57:13 - Initializing Servlet ''
+2025-03-04 20:57:13 - Completed initialization in 0 ms
+2025-03-04 20:57:13 - Inside Test - delete application
+2025-03-04 20:57:13 - Delete Application inside controller method
+2025-03-04 20:58:57 - Starting ApplicationControllerTest using Java 23.0.1 with PID 9552 (started by Bharath in D:\ExcelR\Codebase\BackEnd\Workspace\Workspace_2\Bug-Tracking\Bug-Tracking)
+2025-03-04 20:58:57 - No active profile set, falling back to 1 default profile: "default"
+2025-03-04 20:58:58 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-03-04 20:58:59 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:58:59 - Initializing Servlet ''
+2025-03-04 20:58:59 - Completed initialization in 2 ms
+2025-03-04 20:58:59 - Started ApplicationControllerTest in 2.138 seconds (process running for 3.056)
+2025-03-04 20:58:59 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:58:59 - Initializing Servlet ''
+2025-03-04 20:58:59 - Completed initialization in 1 ms
+2025-03-04 20:58:59 - Inside Test - get all application
+2025-03-04 20:58:59 - Inside application controller and calling get application method 
+2025-03-04 20:58:59 - Fetching Data from service layer: [com.excelr.bugtracking.dto.ApplicationDTO@1cc41b77]
+2025-03-04 20:58:59 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:58:59 - Initializing Servlet ''
+2025-03-04 20:58:59 - Completed initialization in 1 ms
+2025-03-04 20:58:59 - Inside application controller and calling update method 
+2025-03-04 20:58:59 - Updated data from service layer: com.excelr.bugtracking.dto.ApplicationDTO@40bf0e15
+2025-03-04 20:58:59 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:58:59 - Initializing Servlet ''
+2025-03-04 20:58:59 - Completed initialization in 0 ms
+2025-03-04 20:58:59 - Inside Test - delete application
+2025-03-04 20:58:59 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "findByName"]
+2025-03-04 20:58:59 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:58:59 - Initializing Servlet ''
+2025-03-04 20:58:59 - Completed initialization in 0 ms
+2025-03-04 20:58:59 - Inside Test - delete application
+2025-03-04 20:58:59 - Delete Application inside controller method
+2025-03-04 20:59:38 - Starting ApplicationControllerTest using Java 23.0.1 with PID 25336 (started by Bharath in D:\ExcelR\Codebase\BackEnd\Workspace\Workspace_2\Bug-Tracking\Bug-Tracking)
+2025-03-04 20:59:38 - No active profile set, falling back to 1 default profile: "default"
+2025-03-04 20:59:39 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-03-04 20:59:40 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:59:40 - Initializing Servlet ''
+2025-03-04 20:59:40 - Completed initialization in 1 ms
+2025-03-04 20:59:40 - Started ApplicationControllerTest in 2.087 seconds (process running for 2.976)
+2025-03-04 20:59:40 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:59:40 - Initializing Servlet ''
+2025-03-04 20:59:40 - Completed initialization in 2 ms
+2025-03-04 20:59:40 - Inside Test - get all application
+2025-03-04 20:59:40 - Inside application controller and calling get application method 
+2025-03-04 20:59:40 - Fetching Data from service layer: [com.excelr.bugtracking.dto.ApplicationDTO@e154848]
+2025-03-04 20:59:40 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:59:40 - Initializing Servlet ''
+2025-03-04 20:59:40 - Completed initialization in 1 ms
+2025-03-04 20:59:40 - Inside application controller and calling update method 
+2025-03-04 20:59:40 - Updated data from service layer: com.excelr.bugtracking.dto.ApplicationDTO@45297e7
+2025-03-04 20:59:40 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:59:40 - Initializing Servlet ''
+2025-03-04 20:59:40 - Completed initialization in 0 ms
+2025-03-04 20:59:40 - Inside Test - delete application
+2025-03-04 20:59:40 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "findByName"]
+2025-03-04 20:59:40 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 20:59:40 - Initializing Servlet ''
+2025-03-04 20:59:40 - Completed initialization in 1 ms
+2025-03-04 20:59:40 - Inside Test - delete application
+2025-03-04 20:59:40 - Delete Application inside controller method
+2025-03-04 21:01:42 - Starting ApplicationControllerTest using Java 23.0.1 with PID 1684 (started by Bharath in D:\ExcelR\Codebase\BackEnd\Workspace\Workspace_2\Bug-Tracking\Bug-Tracking)
+2025-03-04 21:01:42 - No active profile set, falling back to 1 default profile: "default"
+2025-03-04 21:01:44 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-03-04 21:01:44 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 21:01:44 - Initializing Servlet ''
+2025-03-04 21:01:44 - Completed initialization in 1 ms
+2025-03-04 21:01:44 - Started ApplicationControllerTest in 2.081 seconds (process running for 2.961)
+2025-03-04 21:01:44 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 21:01:44 - Initializing Servlet ''
+2025-03-04 21:01:44 - Completed initialization in 2 ms
+2025-03-04 21:01:44 - Inside Test - get all application
+2025-03-04 21:01:44 - Inside application controller and calling get application method 
+2025-03-04 21:01:44 - Fetching Data from service layer: [com.excelr.bugtracking.dto.ApplicationDTO@e154848]
+2025-03-04 21:01:44 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 21:01:44 - Initializing Servlet ''
+2025-03-04 21:01:44 - Completed initialization in 1 ms
+2025-03-04 21:01:44 - Inside application controller and calling update method 
+2025-03-04 21:01:44 - Updated data from service layer: com.excelr.bugtracking.dto.ApplicationDTO@45297e7
+2025-03-04 21:01:44 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 21:01:44 - Initializing Servlet ''
+2025-03-04 21:01:44 - Completed initialization in 0 ms
+2025-03-04 21:01:44 - Inside Test - delete application
+2025-03-04 21:01:44 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 21:01:44 - Initializing Servlet ''
+2025-03-04 21:01:44 - Completed initialization in 0 ms
+2025-03-04 21:01:44 - Inside Test - delete application
+2025-03-04 21:01:44 - Delete Application inside controller method
+2025-03-04 21:02:59 - Starting ApplicationControllerTest using Java 23.0.1 with PID 13336 (started by Bharath in D:\ExcelR\Codebase\BackEnd\Workspace\Workspace_2\Bug-Tracking\Bug-Tracking)
+2025-03-04 21:02:59 - No active profile set, falling back to 1 default profile: "default"
+2025-03-04 21:03:00 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-03-04 21:03:01 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 21:03:01 - Initializing Servlet ''
+2025-03-04 21:03:01 - Completed initialization in 2 ms
+2025-03-04 21:03:01 - Started ApplicationControllerTest in 2.199 seconds (process running for 3.129)
+2025-03-04 21:03:01 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 21:03:01 - Initializing Servlet ''
+2025-03-04 21:03:01 - Completed initialization in 2 ms
+2025-03-04 21:03:01 - Inside Test - get all application
+2025-03-04 21:03:01 - Inside application controller and calling get application method 
+2025-03-04 21:03:01 - Fetching Data from service layer: [com.excelr.bugtracking.dto.ApplicationDTO@e154848]
+2025-03-04 21:03:01 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 21:03:01 - Initializing Servlet ''
+2025-03-04 21:03:01 - Completed initialization in 1 ms
+2025-03-04 21:03:01 - Inside application controller and calling update method 
+2025-03-04 21:03:01 - Updated data from service layer: com.excelr.bugtracking.dto.ApplicationDTO@45297e7
+2025-03-04 21:03:01 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 21:03:01 - Initializing Servlet ''
+2025-03-04 21:03:01 - Completed initialization in 1 ms
+2025-03-04 21:03:01 - Inside Test - delete application
+2025-03-04 21:03:01 - Inside application controller and calling get applicationByName method 
+2025-03-04 21:03:01 - Fetching data from service layer: com.excelr.bugtracking.dto.ApplicationDTO@66ab924
+2025-03-04 21:03:01 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 21:03:01 - Initializing Servlet ''
+2025-03-04 21:03:01 - Completed initialization in 1 ms
+2025-03-04 21:03:01 - Inside Test - delete application
+2025-03-04 21:03:01 - Delete Application inside controller method
+2025-03-04 21:03:41 - Starting ApplicationControllerTest using Java 23.0.1 with PID 13508 (started by Bharath in D:\ExcelR\Codebase\BackEnd\Workspace\Workspace_2\Bug-Tracking\Bug-Tracking)
+2025-03-04 21:03:41 - No active profile set, falling back to 1 default profile: "default"
+2025-03-04 21:03:43 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-03-04 21:03:43 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 21:03:43 - Initializing Servlet ''
+2025-03-04 21:03:43 - Completed initialization in 0 ms
+2025-03-04 21:03:43 - Started ApplicationControllerTest in 2.17 seconds (process running for 3.097)
+2025-03-04 21:03:43 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 21:03:43 - Initializing Servlet ''
+2025-03-04 21:03:43 - Completed initialization in 1 ms
+2025-03-04 21:03:43 - Inside Test - get all application
+2025-03-04 21:03:43 - Inside application controller and calling get application method 
+2025-03-04 21:03:43 - Fetching Data from service layer: [com.excelr.bugtracking.dto.ApplicationDTO@e154848]
+2025-03-04 21:03:43 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 21:03:43 - Initializing Servlet ''
+2025-03-04 21:03:43 - Completed initialization in 0 ms
+2025-03-04 21:03:43 - Inside application controller and calling update method 
+2025-03-04 21:03:43 - Updated data from service layer: com.excelr.bugtracking.dto.ApplicationDTO@45297e7
+2025-03-04 21:03:43 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 21:03:43 - Initializing Servlet ''
+2025-03-04 21:03:43 - Completed initialization in 0 ms
+2025-03-04 21:03:43 - Inside Test - delete application
+2025-03-04 21:03:43 - Inside application controller and calling get applicationByName method 
+2025-03-04 21:03:43 - Fetching data from service layer: com.excelr.bugtracking.dto.ApplicationDTO@66ab924
+2025-03-04 21:03:43 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 21:03:43 - Initializing Servlet ''
+2025-03-04 21:03:43 - Completed initialization in 1 ms
+2025-03-04 21:03:43 - Inside Test - delete application
+2025-03-04 21:03:43 - Delete Application inside controller method
+2025-03-04 21:07:28 - Starting ApplicationControllerTest using Java 23.0.1 with PID 9340 (started by Bharath in D:\ExcelR\Codebase\BackEnd\Workspace\Workspace_2\Bug-Tracking\Bug-Tracking)
+2025-03-04 21:07:28 - No active profile set, falling back to 1 default profile: "default"
+2025-03-04 21:07:30 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-03-04 21:07:31 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 21:07:31 - Initializing Servlet ''
+2025-03-04 21:07:31 - Completed initialization in 2 ms
+2025-03-04 21:07:31 - Started ApplicationControllerTest in 3.243 seconds (process running for 4.807)
+2025-03-04 21:07:31 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 21:07:31 - Initializing Servlet ''
+2025-03-04 21:07:31 - Completed initialization in 0 ms
+2025-03-04 21:07:31 - Inside Test - get all application
+2025-03-04 21:07:31 - Inside application controller and calling get application method 
+2025-03-04 21:07:31 - Fetching Data from service layer: [com.excelr.bugtracking.dto.ApplicationDTO@22a5f12]
+2025-03-04 21:07:31 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 21:07:31 - Initializing Servlet ''
+2025-03-04 21:07:31 - Completed initialization in 0 ms
+2025-03-04 21:07:31 - Inside application controller and calling update method 
+2025-03-04 21:07:31 - Updated data from service layer: com.excelr.bugtracking.dto.ApplicationDTO@135ddb56
+2025-03-04 21:07:31 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 21:07:31 - Initializing Servlet ''
+2025-03-04 21:07:31 - Completed initialization in 0 ms
+2025-03-04 21:07:31 - Inside Test - delete application
+2025-03-04 21:07:31 - Inside application controller and calling get applicationByName method 
+2025-03-04 21:07:31 - Fetching data from service layer: com.excelr.bugtracking.dto.ApplicationDTO@17b3b021
+2025-03-04 21:07:31 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 21:07:31 - Initializing Servlet ''
+2025-03-04 21:07:31 - Completed initialization in 0 ms
+2025-03-04 21:07:31 - Inside Test - delete application
+2025-03-04 21:07:31 - Delete Application inside controller method
+2025-03-04 21:13:50 - Starting ApplicationControllerTest using Java 23.0.1 with PID 1872 (started by Bharath in D:\ExcelR\Codebase\BackEnd\Workspace\Workspace_2\Bug-Tracking\Bug-Tracking)
+2025-03-04 21:13:50 - No active profile set, falling back to 1 default profile: "default"
+2025-03-04 21:13:52 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-03-04 21:13:52 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 21:13:52 - Initializing Servlet ''
+2025-03-04 21:13:52 - Completed initialization in 2 ms
+2025-03-04 21:13:52 - Started ApplicationControllerTest in 2.246 seconds (process running for 3.349)
+2025-03-04 21:13:52 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 21:13:52 - Initializing Servlet ''
+2025-03-04 21:13:52 - Completed initialization in 0 ms
+2025-03-04 21:13:52 - Inside Test - get all application
+2025-03-04 21:13:52 - Inside application controller and calling get application method 
+2025-03-04 21:13:52 - Fetching Data from service layer: [com.excelr.bugtracking.dto.ApplicationDTO@e154848]
+2025-03-04 21:13:52 - Inside application controller and calling get application method 
+2025-03-04 21:13:52 - Fetching Data from service layer: null
+2025-03-04 21:13:52 - Fetched 0 records from Database
+2025-03-04 21:13:52 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 21:13:52 - Initializing Servlet ''
+2025-03-04 21:13:52 - Completed initialization in 1 ms
+2025-03-04 21:13:52 - Inside application controller and calling update method 
+2025-03-04 21:13:52 - Updated data from service layer: com.excelr.bugtracking.dto.ApplicationDTO@45297e7
+2025-03-04 21:13:53 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 21:13:53 - Initializing Servlet ''
+2025-03-04 21:13:53 - Completed initialization in 1 ms
+2025-03-04 21:13:53 - Inside Test - delete application
+2025-03-04 21:13:53 - Inside application controller and calling get applicationByName method 
+2025-03-04 21:13:53 - Fetching data from service layer: com.excelr.bugtracking.dto.ApplicationDTO@66ab924
+2025-03-04 21:13:53 - Initializing Spring TestDispatcherServlet ''
+2025-03-04 21:13:53 - Initializing Servlet ''
+2025-03-04 21:13:53 - Completed initialization in 0 ms
+2025-03-04 21:13:53 - Inside Test - delete application
+2025-03-04 21:13:53 - Delete Application inside controller method
