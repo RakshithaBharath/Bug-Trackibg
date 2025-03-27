@@ -83,7 +83,7 @@ public class ReleaseController {
 			return new ResponseEntity<ReleaseDTO>(HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 
-		return new ResponseEntity<ReleaseDTO>(releaseDTO, HttpStatus.CREATED);
+		return new ResponseEntity<ReleaseDTO>(releaseDTO, HttpStatus.ACCEPTED);
 
 	}
 
