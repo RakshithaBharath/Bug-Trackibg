@@ -65,7 +65,7 @@ public class BugController {
 			return new ResponseEntity<BugDTO>(HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 
-		return new ResponseEntity<BugDTO>(bugDTOs, HttpStatus.ACCEPTED);
+		return new ResponseEntity<BugDTO>(bugDTOs, HttpStatus.CREATED);
 
 	}
 
